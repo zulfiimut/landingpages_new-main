@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights | Artisan Desserts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo"><i class="fas-fa-candy-cane"></i>Sweet Delights</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Menu</a>
+            <a href="#about">About</a>
+            <a href="#testimonials">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <div class="cart-btn" id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Nikmati <span>Kreasi </span>Hidangan <span>Pennutup </span>yang <span>Lezat </span></h1>
+            <p>Temukan hidangan penutup buatan tangan kami yang dibuat dengan bahan-bahan terbaik dan penuh cinta. 
+                Sempurna untuk acara spesial atau sekedar karena anda layak mendapatkannya!</p>
+            <div class="hero-btns">
+                <a href="#featured" class="btn btn-primary">Explore Menu</a>
+                <a href="#" class="btn btn-secondary">Order Now</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="..." alt="Delicious Desserts">
+        </div>
+    </section>
+
+    <!-- Featured Desserts -->
+    <section class="featured" id="featured">
+        <div class="section-title">
+            <h2>Our Signatur Creations</h2>
+            <p>Setiap hidangan penutup dibuat dengan ketelitian dan penuh gairah untuk menghadirkan pengalaman rasa yang 
+                tak terlupakan.</p>
+        </div>
+
+        <div class="featured-grid">
+            <!-- Dessert 1 -->
+            <div class="dessert-card">
+                <div class="card-badge">Bestseller</div>
+                <div class="card-img">
+                    <img src="..." alt="Chocolate Muffin">
+                </div>
+                <div class="card-content">
+                    <h3>Chocolate Muffin</h3>
+                    <p>Chocolate Muffin adalah camilan sederhana yang memuaskan hasrat akan cokelat, dengan rasa yang 
+                        nikmat dan mudah dibuat di rumah!</p>
+                    <div class="card-footer">
+                        <div class="price">Rp 15.000</div>
+                        <button class="add-to-cart" data-id="1" data-name="Chocolate Muffin" data-price="8.99" 
+                            data-image="...">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert 2 -->
+            <div class="dessert-card">
+                <div class="card-badge">New</div>
+                <div class="card-img">
+                    <img sc="..." alt="Chocolate Cake">
+                </div>
+                <div class="card-content">
+                    <h3>Chocolate Cake</h3>
+                    <p>Chocolate Cake itu kayak selimut berwarna cokelat yang bisa dimakan-lembut, melty, dan bikin 
+                        hati auto sangat bahagia! </p>
+                    <div class="card-footer">
+                        <div class="price">Rp 25.000</div>
+                        <button class="add-to-cart" data-id="2" data-name="Chocolate Cake" data-price="7.99" 
+                            data-image="...">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert 3 -->
+            <div class="dessert-card">
+                <div class="card-img">
+                    <img src="..." alt="Strawberry Cake">
+                </div>
+                <div class="card-content">
+                    <h3>Strawberry Cake</h3>
+                    <p>Strawberry Cake itu kayak bidadari merah muda ynag jatuh ke dunia-manis, asam, segar, dan bikin 
+                        semua orang auto tersenyum! </p>
+                    <div class="card-footer">
+                        <div class="price">Rp 25.000</div>
+                        <button class="add-to-cart" data-id="3" data-name="Strawberry Cake" data-price="6.99" 
+                            data-image="...">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert 4 -->
+            <div class="dessert-card">
+                <div class="card-img">
+                    <img src="..." alt="Matcha Crepe Cake">
+                </div>
+                <div class="card-content">
+                    <h3>Matcha Crepe Cake</h3>
+                    <p>Dijamin bikin kamu lupa sama nilai ujian yang sempet bikin galau! Nilai anjlok? Santai, yang
+                        penting matcha crepe cake-nya tetep bisa dinikmati~ </p>
+                    <div class="card-footer">
+                        <div class="price">Rp 20.000</div>
+                        <button class="add-to-cart" data-id="4" data-name="Matcha Crepe Cake" data-price="12.99" 
+                            data-image="...">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert 5 -->
+            <div class="dessert-card">
+                <div class="card-img">
+                    <img src="..." alt="Cheese Cake">
+                </div>
+                <div class="=card-content">
+                    <h3>Cheese Cake</h3>
+                    <p>Cheese Cake dengan toping selai strawberry itu kayak Ratu Drama di dunia dessert-lembut dan
+                        selalu bikin semua orang slay! </p>
+                    <div class="card-footer">
+                        <div class="price">Rp 20.000</div>
+                        <button class="add-to-cart" data-id="4" data-name="Cheese Cake" data-price="12.99" 
+                            data-image="...">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="..." alt="Our Bakery">
+        </div>
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Sweet Delights lahir tahun 2010 dari dapur keluarga yang demen banget bikin dessert enak. Dari jualan 
+                rumahan, sekarang udah jadi tempat langganan para pecinta manis!</p>
+            <p>Kami pakai bahan-bahan premium pilihan, utamakan yang lokal, biar dessert dessert kami nggak cuma enak di lidah
+                tapi juga dibuat dengan sepenuh hati sampaike detail terkecil.</p>
+
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Setiap Hari Bikin Pelanggan Ngiler</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Pilihan Dessert Super Lengkap</p>
+                </div>
+                <div class="stat-item">
+                    <h3>12</h3>
+                    <p>Resep Juara Bikin Lidah Bergoyang</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Dijamin Bikin Ketagihan!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>What Our Customer Say</h2>
+            <p>"Kata kami sih enak, tapi ini bukti dari salah satu yang udah ngerasain! "</p>
+        </div>
+
+        <div class="testimonial-slider">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <p>"Chocolatte Muffin-nya luar biasa! Lembut, cokelat nya terasa premium, dan porsinya pas jadi 
+                        favorit baru saya di kafe ini!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="..." alt="Johnson">
+                    </div>
+                    <div class="author-info">
+                        <h4>Johnson</h4>
+                        <p>Food Blogger</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Matcha Crepe Cake-nya divine! Lapisannya sempurna, rasa matcha-nya kuat tapi seimbang. Bikin ketagihan!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="..." alt="Emily">
+                    </div>
+                    <div class="author-info">
+                        <h4>Emily</h4>
+                        <p>Local Business Owner</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <p>"Cheese Cake Strawberry-nya nagih banget! Creamy, lembut, dan selai nya bikin segar. Langsung jatuh coba dari gigitan pertama!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <div class="author-img">
+                        <img src="..." alt=" Michael">
+                    </div>
+                    <div class="author-info">
+                        <h4>Michael</h4>
+                        <p>Nutritionist</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-dots">
+                <button class="dot active" data-slider="0" aria-label="Go to slide 1"></button>
+                <button class="dot" data-slider="1" aria-label="Go to slide 2"></button>
+                <button class="dot" data-slider="2" aria-label="Go to slide 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Join Our Sweet Community</h2>
+        <p>Yuk berlangganan newsletter kami! Dapetin info pertama soal varian baru, promo spesial, dan penawaran 
+            eksklusif~ </p>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Alamat email anda" required>
+            <button type="Submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Sweet Delights</h3>
+                <p>"Dibuat dengan cinta, dikirim dengan do'a, biar setiap suapnya bikin hati kamu tergoda~ "
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#featured">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Sweet Street, Dessert City</li>
+                    <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+                    <li><i class="fas fa-envelope"></i> hello@sweetdelights.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sat: 9AM - 9PM</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Yuk berlangganan untuk dapetin update dessert baru & promo spesial! </p>
+                <form class="footer-newsletter">
+                    <input type="email" placeholder="Email anda" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sweet Delights. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <div class="Close-cart" id="close-cart">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+
+        <div class="cart-items" id="cart-items">
+            <!-- Cart item will be added here dynamically -->
+             <div class="empty-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+                <a href="#featured" class="btn btn-primary" id="shop-now-btn">Shop Now</a>
+             </div>
+        </div>
+
+        <div class="cart-summary" id="cart-summary" style="display: none;">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total">Rp 200.000</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <scrip src="assets/js/scrip.js"></scrip>
+    
+</body>
+</html>
